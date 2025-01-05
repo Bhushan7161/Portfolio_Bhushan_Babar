@@ -10,108 +10,44 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# About Me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Data Analyst & Data Engineer with a Master's in Data Analytics & Visualization from Yeshiva University. Expertise in developing data pipelines, deploying machine learning models, and creating business processes. Skilled in Python, SQL, Tableau, AWS, and Azure, with a demonstrated 30% improvement in data processing speed. Proficient in predictive modeling, statistical analysis, and visualizing insights to support data-driven decision-making. Adept at solving complex problems and delivering actionable solutions to drive measurable business results
 
-## Header 2
+# Academic Project's
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Analyzing Chicago Crime Dataset Using Machine Learning Models
 
-### Header 3
+> Analyzed Chicago crime data, using machine learning models and geospatial analysis to uncover trends and identify crime hotspots. My approach was to improved crime prediction and supported targeted prevention strategies.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- Project Link: (https://github.com/Bhushan7161/Data-Science-Final-Project)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
-#### Header 4
+## Movie Analysis System using AWS
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+> Introducing our AWS-based Movie Analysis System for directors, analyzing market trends and viewer preferences with data from MovieLens and TMDB. Using AWS (S3, Lambda, RDS, Glue), ETL processes, and Tableau for visualizations, we enable data-driven decision-making in the film industry.
 
-##### Header 5
+- Project Link: (https://github.com/Bhushan7161/Movie-Analysis-System-using-AWS)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Street Construction Dashboard
 
-###### Header 6
+> A Tableau dashboard analyzing NYC street construction permits from 2018 to 2023. The dashboard offers insights on permit issuance trends across boroughs of New York City.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+- Dashboard Link: (https://public.tableau.com/app/profile/bhushan.babar/viz/StreetConstructionDashboard_17157519242760/Final_Dashboard)
 
-### There's a horizontal rule below this.
+## Healthcare Management System
 
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
+> The disease model revolves around effectively managing and analyzing information related to diseases within the healthcare system. This includes tracking the prevalence of diseases, understanding their characteristics, and making informed decisions to enhance healthcare management and outcomes.
 
 ### Definition lists can be used with HTML syntax.
 
 <dl>
 <dt>Name</dt>
-<dd>Godzilla</dd>
+<dd>Bhushan Balasaheb Babar</dd>
 <dt>Born</dt>
-<dd>1952</dd>
+<dd>1999</dd>
 <dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dd>India</dd>
 </dl>
 
 ```
