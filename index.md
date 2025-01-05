@@ -1,15 +1,3 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # About Me
 
 Data Analyst & Data Engineer with a Master's in Data Analytics & Visualization from Yeshiva University. Expertise in developing data pipelines, deploying machine learning models, and creating business processes. Skilled in Python, SQL, Tableau, AWS, and Azure, with a demonstrated 30% improvement in data processing speed. Proficient in predictive modeling, statistical analysis, and visualizing insights to support data-driven decision-making. Adept at solving complex problems and delivering actionable solutions to drive measurable business results
