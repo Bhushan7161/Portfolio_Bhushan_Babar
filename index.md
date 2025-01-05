@@ -8,7 +8,7 @@ Data Analyst & Data Engineer with a Master's in Data Analytics & Visualization f
 
 > Analyzed Chicago crime data, using machine learning models and geospatial analysis to uncover trends and identify crime hotspots. My approach was to improved crime prediction and supported targeted prevention strategies.
 
-- Project Link: (https://github.com/Bhushan7161/Data-Science-Final-Project)
+- Project Link: (<a>https://github.com/Bhushan7161/Data-Science-Final-Project</a>)
 
 
 ## Movie Analysis System using AWS
