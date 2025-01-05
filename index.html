@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhushan Babar's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .project-card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to Bhushan Babar's Portfolio</h1>
+        <p>Explore my academic projects and skills!</p>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="mb-4">Projects</h2>
+        <div id="projects" class="row">
+            <!-- Projects will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <footer class="text-center mt-5 py-4 bg-light">
+        <p>&copy; 2025 Bhushan Babar | <a href="mailto:bhushanbabar1999@gmail.com">Contact Me</a></p>
+    </footer>
+
+    <script>
+        const projects = [
+            {
+                title: "Academic Project 1",
+                description: "A brief description of the first project.",
+                technologies: ["Python", "Django"],
+                githubLink: "https://github.com/bhushan/project1",
+                demoLink: "https://example.com/project1"
+            },
+            {
+                title: "Academic Project 2",
+                description: "A brief description of the second project.",
+                technologies: ["React", "Node.js"],
+                githubLink: "https://github.com/bhushan/project2",
+                demoLink: "https://example.com/project2"
+            }
+        ];
+
+        const projectsContainer = document.getElementById('projects');
+
+        projects.forEach(project => {
+            const projectCard = document.createElement('div');
+            projectCard.classList.add('col-md-4', 'project-card');
+
+            projectCard.innerHTML = `
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">${project.title}</h5>
+                        <p class="card-text">${project.description}</p>
+                        <p><strong>Technologies:</strong> ${project.technologies.join(', ')}</p>
+                        <a href="${project.githubLink}" class="btn btn-primary" target="_blank">GitHub</a>
+                        <a href="${project.demoLink}" class="btn btn-secondary" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            `;
+
+            projectsContainer.appendChild(projectCard);
+        });
+    </script>
+</body>
+</html>
